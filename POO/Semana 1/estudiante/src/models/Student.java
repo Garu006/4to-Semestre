@@ -3,7 +3,7 @@ package models;
 public class Student {
     //atributos
     private String firstName;
-    private String lasttName;
+    private String lastName;
     private String major;
     private float average;
 
@@ -12,7 +12,7 @@ public class Student {
     }
 
     public Student(String firstName, String LastName, float average, String major) {
-        this.lasttName = lasttName;
+        this.lastName = lastName;
         this.major = major;
         this.average = average;
         this.firstName = firstName;
@@ -36,12 +36,12 @@ public class Student {
         this.major = major;
     }
 
-    public String getLasttName() {
-        return lasttName;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setLasttName(String lasttName) {
-        this.lasttName = lasttName;
+    public void setLastName(String lasttName) {
+        this.lastName = lasttName;
     }
 
     public String getFirstName() {
@@ -57,7 +57,7 @@ public class Student {
     public String toString() {
         return "Student{" +
                 "firstName='" + firstName + '\'' +
-                ", lasttName='" + lasttName + '\'' +
+                ", lastName='" + lastName + '\'' +
                 ", major='" + major + '\'' +
                 ", average=" + average +
                 '}';

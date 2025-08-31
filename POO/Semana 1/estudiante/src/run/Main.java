@@ -8,7 +8,7 @@ public class Main{
     //psmv shortcut
     public static void main(String[] args) {
         //sout shortcut
-        System.out.println("Sesion 2, Miercoles, 27 de agosto");
+        System.out.println("Sesión 2, Miercoles, 27 de agosto");
         //variable primitivas
         //int
         int numero = 0;
